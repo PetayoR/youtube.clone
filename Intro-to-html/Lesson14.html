@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 14</title>
+
+    <style>
+
+      body {
+        margin: 0;
+        height: 3000px;
+        padding-top: 70px;
+        padding-left: 255px;
+      }
+      .header {
+        height: 60px;
+        display: flex;
+        padding-left: 40px;
+        padding-right: 40px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(218, 218, 218);
+        background-color: white;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 65px;
+        
+        z-index: 100;
+      }
+
+      div {
+        font-family: arial;
+        margin-bottom: 0px;
+      }
+      .cat {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+      }
+      .name {
+        font-weight: bold;
+      }
+      .left {
+        display: flex;
+        align-items: center;
+      }
+      .cat-div {
+        margin-right: 10px;
+      }
+      .add {
+        background-color: rgba(40, 98, 197, 0.729);
+        color: white;
+        border-radius: 5px;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 5px;
+      }
+      .message {
+        border-radius: 5px;
+        border: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 5px;
+        font-size: 12px;
+        background-color: rgb(217, 217, 217);
+      }
+
+
+      .sidebar {
+        display: flex;
+        position: fixed;
+        top: 65px;
+        left: 0;
+        bottom: 0;        
+      }
+      .sidebar1 {
+        background-color: rgb(19, 19, 19);
+        width: 50px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+      }
+      .sidebar2 {
+        background-color: rgb(39, 38, 38);
+        width: 150px;
+        padding-top: 16px;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: rgb(109, 108, 108);
+      }
+
+      .image {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-bottom: 5px;
+        object-fit: cover;
+      }
+      .info-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .info {
+        font-weight: bold;
+        font-size: 15px;
+        color: white;
+        
+      }
+      .plus {
+        font-size: 25px;
+      }
+      .trend-div {
+        margin-bottom: 15px;
+      }
+
+      .close-container {
+
+      }
+      .close {
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        background-color: black;
+        color: white;
+        width: 45px;
+        height: 45px;
+        border-radius: 30px;
+        border: none;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .divi {
+        background-color: grey;
+        width: 320px;
+        height: 180px;
+        position: fixed;
+        bottom: 10px;
+        right: 5px;
+      }
+      .fixdiv {
+        position: fixed;
+        top: 110px;
+        right: 20px;
+      }
+
+      .time {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        background-color: black;
+        color: white;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 4px;
+        padding-left: 4px;
+      }
+
+
+      .blouse-container {
+        position: relative;
+        width: 300px;
+      }
+      .blouse {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+      .off {
+        background-color: black;
+        color: white;
+        font-family: Arial;
+        font-size: 15px;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
+      .cover {
+        Background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        right: 0;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .cart {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left">
+        <div class="cat-div"> <img class="cat" src="practice/cat.jpg"></div>
+        <div class="name"> Oliver Cat</div>
+      </div>
+      <div class="right">
+        <button class="add">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar1">
+        <div><img class="image" src="practice/cat.jpg"></div>
+        <div><img class="image" src="practice/cat2.jpg"></div>
+        <div><img class="image" src="practice/dog.jpg"></div>
+      </div>
+  
+      <div class="sidebar2">
+        <div class="info-div">
+          <div class="info">INFO</div>
+          <div class="plus">+</div>
+        </div>
+        <div class=trend-div># new-videos</div>
+        <div class=trend-div># updates</div>
+        <div class=trend-div># faq</div>
+      </div>
+    </div>
+    
+    <div class="blouse-container">
+      <img class="blouse" src="practice/blouse2.webp">
+      <div class="off">20% OFF</div>
+      <div class="cover">
+        <button class="cart">Add to Cart</button>
+      </div>
+    </div>
+    
+    <div class="fixdiv">
+      <div class="divi">
+        <div class="close">X</div>
+        <div class="time">0:29</div>
+      </div>
+    </div>
+   
+  </body>
+</html>

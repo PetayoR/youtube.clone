@@ -1,0 +1,74 @@
+p {
+  font-family: arial;
+  margin-bottom: 0px;
+  margin-top: 0px;
+ } 
+.new {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+.mac {
+  font-size: 20px;
+  text-align: center;
+}
+.pros {
+  font-size: 33px;
+  font-weight: bold;
+  text-align: center;
+}
+.from {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.buy {
+  background-color: rgb(83, 83, 222);
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align:center;
+}
+
+.first-digit {
+  font-size: 33px;
+  margin-bottom: 4px;
+  margin-top: 50px;
+}
+.dollar {
+  color: rgb(87, 84, 84);
+  font-size: 20px;
+}
+.green {
+  color: green;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.second-digit {
+  font-size: 15px;
+  color: rgb(87, 84, 84);
+  margin-bottom: 100px;
+}
+.red {
+  color: red;
+  font-size: 15px;
+}
+.free {
+  margin-bottom: 5px;
+}
+.freecode {
+  color:rgb(87, 84, 84);
+}
+.developer {
+  margin-bottom: 12px;
+  width: 500px;
+  line-height: 20px;
+}
+.chp {
+  color: rgb(66, 66, 214);
+}

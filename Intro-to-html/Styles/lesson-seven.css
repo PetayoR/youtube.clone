@@ -1,0 +1,97 @@
+.tex {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  border-color: red;
+}
+.search {
+  border-radius: 5px;
+  border-color: rgb(216, 213, 213);
+  border-style: solid;
+  border-width: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 5px;
+  width: 200px;
+}
+.google {
+  font-size: 10px;
+  width: 300px;
+  padding-right: 50px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 50px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, 0.25);
+}
+.email {
+  font-family: arial;
+  font-size: 13px;
+  color: rgb(108, 107, 107);
+  margin-bottom: 6px;
+}
+.box {
+  width: 315px;
+  border-radius: 3px;
+  border-width: 1.5px;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-color: rgb(108, 107, 107);
+  margin-bottom: 1px;
+  
+}
+.policy {
+  font-family: arial;
+  font-size: 13px;
+  color: rgb(108, 107, 107);
+}
+.agree {
+  background-color: rgb(63, 63, 212);
+  color: white;
+  width: 320px;
+  border: none;
+  border-radius: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: arial;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.profile {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 25px;
+}
+.what {
+  vertical-align: middle;
+  border: none;
+  width: 300px;
+  font-size: 15px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tweet {
+  vertical-align: middle;
+  background-color: rgb(61, 61, 255);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+}

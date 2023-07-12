@@ -1,0 +1,106 @@
+.name, .email {
+  display: block;
+  margin-top: 5px;
+}
+
+.thanks {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google-logo {
+  width: 200px;
+  margin-left: 170px;
+  display: block;
+}
+.sgoogle {
+  width: 500px;
+  border: ;
+  font-size: 13px;
+  border: none;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.first, .last {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  border-color: rgb(198, 195, 195);
+}
+.email2 {
+  display: block;
+  width: 330px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-color: rgb(198, 195, 195);
+}
+.sign-up {
+  display: block;
+  background-color: rgb(85, 85, 195);
+  color: white;
+  width: 344px;
+  border-radius: 5px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.request1, .enter, .enter2, .request, .schedule {
+  font-family: arial;
+  border: none;
+}
+.request1 {
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+.enter, .enter2 {
+  font-size: 11px;
+  width: 250px;
+  background-color: rgb(241, 235, 235);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: block;
+}
+.request {
+  font-size: 11px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: white;
+  background-color: black;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.schedule {
+  font-size: 11px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
