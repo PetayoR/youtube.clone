@@ -20,9 +20,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
-.video-preview {
-}
 .thumbnail-row {
   margin-bottom: 8px;
   position: relative;
@@ -102,12 +99,6 @@
 .tooltip-sub {
   font-size: 15px;
   color: rgb(110, 110, 110)
-}
-  
-
-
-
-.video-info-div {
 }
 .title {
   font-size: 14px;
